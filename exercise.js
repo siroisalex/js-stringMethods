@@ -52,7 +52,8 @@ console.log(scissorHand);
 
 var grasshopper = "In order to taste my cup of water you must first fill your cup.";
 
-
+var theSifu = grasshopper.replace("fill", "empty");
+console.log(theSifu);
 
 /*The toLowerCase() method converts the characters in a string to lower case.*/
 
@@ -60,7 +61,8 @@ var grasshopper = "In order to taste my cup of water you must first fill your cu
 
 var bigTime = "BRUuHHHH, I AM DA GreaTest!";
 
-
+var smallKine = bigTime.toLowerCase();
+console.log(smallKine);
 
 /*The toUpperCase() method converts the characters in a string to upper case.*/
 
@@ -68,7 +70,8 @@ var bigTime = "BRUuHHHH, I AM DA GreaTest!";
 
 var bandName = "the beatles";
 
-
+var bigBand = bandName.toUpperCase();
+console.log(bigBand);
 
 /*The split() method converts a string into an array, by separating the string into substrings.*/
 
@@ -76,7 +79,8 @@ var bandName = "the beatles";
 
 var oreos = "red velvet, cookie dough, peanut butter, banana split, birthday cake";
 
-
+var oreoList = oreos.split(",");
+console.log(oreoList);
 
 /*The substr() method is similar to slice(). The difference is that the second parameter specifies the length of the extracted part. The 2 parameters: the starting index (position) and the length of the extracted part. */
 
@@ -84,7 +88,8 @@ var oreos = "red velvet, cookie dough, peanut butter, banana split, birthday cak
 
 var drinkMenu = "rum, gin, vodka, kool-aid, haterade";
 
-
+var favDrink = drinkMenu.substr(5, 3);
+console.log(favDrink);
 
 
 
